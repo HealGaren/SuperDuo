@@ -28,4 +28,11 @@ public class MonsterShortCtrl : MonoBehaviour {
     {
 
     }
+
+    //체력을 관리합니다.
+    public void HpManager(int num) {
+        m.hp += num; 
+    }
+
+
 }

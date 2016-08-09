@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 
 //스테이지내의 플레이어 클래스입니다.
@@ -7,24 +6,27 @@ public class PlayerCtrl : MonoBehaviour {
 
     //HP
     public int currentHP, maxHP;
-    //MP
-    public int currentMP, maxMP;
     //공격력
     public int dmg;
     //방어력
     public int blockPoint;
-
+    //플레이어 회전 속도
+    public float rotateSpeed=10;
+    //아바타
     public Avatar avatar;
 
     //사운드 리스트
     public AudioClip[] audioList;
+
+    //무기 정보
+    public WeaponCtrl weapon;
+
 
     //최적화를 위한 캐싱 변수
     Transform tr;
     Rigidbody2D ri;
     Animator ani;
     AudioSource sound;
-    WeaponCtrl weapon;
 
     //오브젝트 행동이 시작될 때 
     void Start () {
@@ -51,8 +53,12 @@ public class PlayerCtrl : MonoBehaviour {
     }
 
 
+    public void GetShield() {
 
+    }
 
-
+    public void HpManager(int num) {
+        currentHP += num;
+    }
 
 }

@@ -33,7 +33,7 @@ public class MonsterShort
     public AudioClip[] audios;
     public Sprite sprite;
     public GameObject particle;
-    public List<Monstereffect> effect;
+    
 }
 
 public class MonsterLong
@@ -50,7 +50,7 @@ public class MonsterLong
     public Sprite sprite;
     public GameObject bullet;
     public GameObject particle;
-    public List<Monstereffect> effect;
+    
 }
 
 public class MonsterCommand
@@ -68,14 +68,6 @@ public class MonsterCommand
     public Sprite sprite;
     public GameObject summon;
     public GameObject particle;
-    public List<Monstereffect> effect;
+   
 }
 
-
-//몬스터 효과 클래스 
-public class Monstereffect
-{
-    public int id;
-    public string name;
-    public float value;
-}

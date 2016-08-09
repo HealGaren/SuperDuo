@@ -19,17 +19,11 @@ public class ItemDatabase : MonoBehaviour
 
 }
 
-public class Weapon 
+public class Weapon
 {
-    int id;
-    string name;
-    string content;
-    int buy;
-    int sell;
-    int worth;
-    Sprite icon;
 
-    enum Kind {
+    public enum Kind
+    {
         Gun,
         Bomb,
         Sword,
@@ -38,39 +32,50 @@ public class Weapon
         Bow
     };
 
-    int dmg;
-    int builed;
-    int reqBuiledMoney;
-    int upBuiledMoney;
-    float atkDelayTime;
-    GameObject bullet;
-    Sprite wear;
-    AudioClip[] audioList;
+    public int id;
+    public string name;
+    public string content;
+    public int buy;
+    public int sell;
+    public int worth;
+    public Sprite icon;
+
+
+    public Kind kind;
+    public int dmg;
+    public int builed;
+    public int reqBuiledMoney;
+    public int upBuiledMoney;
+    public float atkDelayTime;
+    public GameObject bullet;
+    public float bulletSpeed;
+    public Sprite wear;
+    public AudioClip[] audioList;
 }
 
-public class Goods 
+public class Goods
 {
-    int id;
-    string name;
-    string content;
-    int buy;
-    int sell;
-    int worth;
-    Sprite icon;
+    public int id;
+    public string name;
+    public string content;
+    public int buy;
+    public int sell;
+    public int worth;
+    public Sprite icon;
 }
 
 
-public class Avatar 
+public class Avatar
 {
-    int id;
-    string name;
-    string content;
-    int buy;
-    int sell;
-    int worth;
-    Sprite icon;
+    public int id;
+    public string name;
+    public string content;
+    public int buy;
+    public int sell;
+    public int worth;
+    public Sprite icon;
 
-    int blockPoint;
-    int look;
-    Sprite wear;
+    public int blockPoint;
+    public int look;
+    public Sprite wear;
 }

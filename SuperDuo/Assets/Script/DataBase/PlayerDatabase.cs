@@ -3,10 +3,15 @@ using System.Collections;
 
 public class PlayerDatabase : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    //싱글 톤
+    public static PlayerDatabase instance;
+
 	
-	}
+	void Start () {
+        //싱글 톤 생성
+        if (instance == null)
+            instance = this;
+    }
 	
 	// Update is called once per frame
 	void Update () {
