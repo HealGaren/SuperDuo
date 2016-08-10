@@ -61,15 +61,6 @@
     <Reference Include="UnityEngine.Analytics">
       <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -80,6 +71,7 @@
     <Compile Include="Assets\Script\DataBase\PlayerDatabase.cs" />
     <Compile Include="Assets\Script\DataBase\SkillDatabase.cs" />
     <Compile Include="Assets\Script\DataBase\StageDatabase.cs" />
+    <Compile Include="Assets\Script\DataBase\UserData\UserData.cs" />
     <Compile Include="Assets\Script\InGame\BulletCtrl.cs" />
     <Compile Include="Assets\Script\InGame\GameManager.cs" />
     <Compile Include="Assets\Script\InGame\MonsterCommandCtrl.cs" />

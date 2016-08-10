@@ -45,7 +45,7 @@ public class Weapon
     public int dmg;
     public int builed;
     public int reqBuiledMoney;
-    public int upBuiledMoney;
+    public int upBuiledDmg;
     public float atkDelayTime;
     public GameObject bullet;
     public float bulletSpeed;
