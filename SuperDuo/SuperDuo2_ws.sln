@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{59F94D38-5804-00E4-3D89-04EEF8C6524D}") = "SuperDuo2_ws", "Assembly-CSharp.csproj", "{DFDD116F-7D31-75B7-F1B6-12044C49E218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFDD116F-7D31-75B7-F1B6-12044C49E218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDD116F-7D31-75B7-F1B6-12044C49E218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDD116F-7D31-75B7-F1B6-12044C49E218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDD116F-7D31-75B7-F1B6-12044C49E218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
